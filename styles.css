@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  width: 600px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+#branding {
+  font-weight: 700;
+  color: brown;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
